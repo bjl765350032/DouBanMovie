@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+.header{
+    width: 100%;
+    height: 8%;
+    background: #333;
+
+}
+.header h1{
+    font-size: 18px;
+    color: #fff;
+    float: left;
+    padding-top:10px ;
+}
+.header input{
+    float: left;
+    margin-left:110px;
+    margin-top: 13px;
+    width: 70px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 12px;
+    border: 0;
+}
+.header button{
+    float: right;
+    margin-right:20px;
+    margin-top:13px;
+    height: 20px;
+    width: 40px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.main{
+    display: flex;
+    height:92%;
+}
+
+.main_left{
+    width: 100px;
+    background:#f5f5f5;
+    padding-top: 10px;
+}
+.main_left div{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+    color:#8ea7ff;
+}
+.main_left .active{
+    background: #8ea7ff;
+    color: #fff;
+}
+.move{
+    background: #B3C7E0;
+}
+.main_right{
+    flex: 1;
+    overflow: scroll;
+}
+#now{
+    height: 100%;
+}
+/*.container{*/
+    /*width: 100%;*/
+    /*height: 90px;*/
+/*}*/
+.content{
+    width: 100%;
+    height: 120px;
+    display: flex;
+}
+.content_l{
+    float:left;
+    width: 70px;
+    height: 100%;
+}
+
+.content_l img{
+    display: block;
+    margin:5px 10px 0 3px;
+    width: 90%;
+    height: 90px;
+
+}
+.content_r{
+    float:left;
+    flex:1;
+    height: 100%;
+}
+.content_r h2{
+    font-size: 12px;
+}
+.score,.time,.director,.actor{
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+}
